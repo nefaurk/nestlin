@@ -1,0 +1,19 @@
+{
+    "name": "Nestlin",
+    "description": "Export nested artboards to a Zeplin project. 🚀",
+    "author": "Nefaur Khandker",
+    "authorEmail": "nefaurk@gmail.com",
+    "version": "1.0",
+    "identifier": "com.nefaurk.nestlin",
+    "commands": [{
+        "name": "Export Selected Artboards…",
+        "identifier": "export",
+        "shortcut": "cmd option e",
+        "script": "export.cocoascript"
+    }],
+    "menu": {
+        "items": [
+            "export"
+        ]
+    }
+}
